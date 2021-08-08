@@ -93,7 +93,6 @@ p {
     margin: auto;
 }
 
-
 .text-seperator {
     position: absolute;
     margin: auto;
@@ -509,14 +508,14 @@ p {
 #contact-img1 {
     grid-area: cont-img;
     left: -100px;
-    top: 10px;
+    opacity: 0;
 }
 
 #contact-holder {
     position: relative;
     grid-area: cont-text;
     right: -100px;
-    top: 10px;
+    opacity: 0;
 }
 
 #contact-holder p {
@@ -548,9 +547,9 @@ p {
 
 @keyframes contact-animate {
     100% {
+        opacity: 1;
         left: 0px;
         right: 0px;
-        top: 0px;
     }
 }
 
