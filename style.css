@@ -668,9 +668,9 @@ footer p {
         padding: 20px 0px;
     }
 
-        #contact-links a {
-            margin: 0px 5px;
-        }
+    #contact-links a {
+        margin: 0px 5px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
