@@ -513,7 +513,7 @@ p {
         "cont-title cont-title"
         "cont-img cont-text";
     grid-column-gap: 50px;
-    justify-content: start;
+    justify-content: center;
 }
 
 #contact-header {
