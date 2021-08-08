@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 :root{
@@ -11,7 +10,7 @@
   --max-window-width: 1800px;
 }
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -221,13 +220,13 @@ p{
   animation-delay: 0.5s;
 }
 
-@keyframes animate-about {
-  0% {
+@keyframes animate-about{
+  0%{
     left: -75px;
     opacity: 0;
     color: red;
   }
-  100% {
+  100%{
     left: 0px;
     opacity: 1;
     color: black;
@@ -257,10 +256,6 @@ p{
   text-align: center;
   margin: auto;
   font-size: 5.5em;
-  /*
-  opacity: 0;
-  left: -100px;
-  */
 }
 
 #project-title p{
@@ -270,22 +265,7 @@ p{
   padding: 0px 10px;
   text-align: center;
   margin: auto;
-  /*
-  opacity: 0;
-  left: -100px;
-  */
 }
-
-/*
-#project-title.animate h1{
-  animation: animation 0.5s forwards;
-}
-
-#project-title.animate p{
-  animation: animation 0.5s forwards;
-  animation-delay: 0.2s;
-}
-*/
 
 #project-holders{
   display: grid;
@@ -304,7 +284,7 @@ p{
   opacity: 0;
 }
 
-#proj0 {
+#proj0{
   grid-area: project1;
 }
 .animate #proj0{
@@ -314,6 +294,7 @@ p{
 #proj1{
   grid-area: project2;
 }
+
 .animate #proj1{
   animation: animate-projects 0.5s ease-in-out both;
   animation-delay: 0.2s;
@@ -322,6 +303,7 @@ p{
 #proj2{
   grid-area: project3;
 }
+
 .animate #proj2{
   animation: animate-projects 0.5s ease-in-out both;
   animation-delay: 0.4s;
@@ -330,6 +312,7 @@ p{
 #proj3{
   grid-area: project4;
 }
+
 .animate #proj3{
   animation: animate-projects 0.5s ease-in-out both;
   animation-delay: 0.6s;
@@ -414,6 +397,7 @@ p{
 .project-display:hover p{
   transform: translateY(-2px);  
 } 
+
 .project-display:hover p::after{
   width: 75%;
 }
@@ -473,22 +457,27 @@ p{
 #i1{
   color: red;
 }
+
 #i2{
   color: orange;
   animation-delay: 0.3s;
 }
+
 #i3{
   color: yellow;
   animation-delay: 0.4s;
 }
+
 #i4{
   color: green;
   animation-delay: 0.5s;
 }
+
 #i5{
   color: blue;
   animation-delay: 0.6s;
 }
+
 #i6{
   color: purple;
   animation-delay: 0.7s;
@@ -589,12 +578,10 @@ footer p{
 }
 
 @keyframes fadeinMain{
-  0%
-  {
+  0%{
       opacity: 0;
   }  
-  100%
-  {
+  100%{
       opacity: 1;
   }  
 }
@@ -620,7 +607,6 @@ footer p{
       "project1 project2" 
       "project3 project4";
   }
-
 }
 
 @media only screen and (max-width: 960px){
@@ -630,8 +616,7 @@ footer p{
   #about{
    grid-template-areas:
     "text"
-    "image"
-     ;
+    "image";
   }
   #about-content{
     width: 95%;
@@ -684,16 +669,13 @@ footer p{
   #seperator{
     top: 5%;
   }
-  
   #welcome-section{
     max-height: 100vh;
   }
-  
   #welcome-header{
     top: 15%;
     animation: arise-mobile 1s;
   }
-  
   #welcome-subheader{
     font-size: 4em;
     opacity: 1;
@@ -701,31 +683,25 @@ footer p{
     padding-top: 10px;
     animation: arise-mobile 1s;
   }
-  
   #welcome-details p{
     width: 600px;
     font-size: 2.5em;
   }
-  
   #about-header{
     font-size: 2.75em;
   }
-
   .about-detail{
     font-size: 2.5em;
   }
-  
   #project-holders{
     grid-template-areas:
       "project1 project2" 
       "project3 project4";
   }
-  
   .img-holder{
     width: 400px;
     height: 400px;
   }
-  
   .overlay p{
     font-size: 1.5em;
     top: -2px;
@@ -740,8 +716,7 @@ footer p{
   #about{
     grid-template-areas:
       "text"
-      "image"
-      ;
+      "image";
   }
   #about-content{
     width: 95%;
@@ -773,6 +748,5 @@ footer p{
   100%{ 
     opacity: 1;
     top: 15%;
-    
   }
 }
