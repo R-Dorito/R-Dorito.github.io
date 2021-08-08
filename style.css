@@ -507,14 +507,14 @@ p {
 
 #contact-img1 {
     grid-area: cont-img;
-    left: -100px;
+    left: -20px;
     opacity: 0;
 }
 
 #contact-holder {
     position: relative;
     grid-area: cont-text;
-    right: -100px;
+    right: -20px;
     opacity: 0;
 }
 
