@@ -666,9 +666,9 @@ footer p {
         padding: 20px 0px;
     }
 
-        #contact-links a {
-            margin: 0px 5px;
-        }
+    #contact-links a {
+        margin: 0px 5px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -766,9 +766,14 @@ footer p {
         grid-column-gap: 50px;
         justify-content: center;
     }
+    
+    #contact-header {
+        font-size: 2.5em;
+    }
 
     #contact-holder p {
         text-align: center;
+        font-size: 2em;
     }
 
     #contact-links {
@@ -777,6 +782,7 @@ footer p {
     }
 
     #contact-links a {
+        font-size: 4em;
         margin: 0px 5px;
     }
 }
