@@ -7,3 +7,6 @@ Website completed on: 08/08/2021
 
 View it here:
 https://r-dorito.github.io/
+
+All images used for the site can be found here:
+https://github.com/R-Dorito/MyPersonalProfile
