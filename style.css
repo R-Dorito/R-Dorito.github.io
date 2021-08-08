@@ -502,6 +502,7 @@ p {
 
 #contact-header {
     grid-area: cont-title;
+    font-size: 3em;
 }
 
 #contact-img1 {
