@@ -735,11 +735,12 @@ footer p {
     }
 
     #about-header {
-        font-size: 2.75em;
+        font-size: 2.5em;
     }
 
     .about-detail {
-        font-size: 2.5em;
+        font-size: 2em;
+        padding: 20px 0px;
     }
 
     #project-holders {
