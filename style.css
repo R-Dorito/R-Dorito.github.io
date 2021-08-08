@@ -438,7 +438,7 @@ p {
 
 .interest-item:hover {
     margin-left: calc(20% + 10px);
-    font-size: 1.55em;
+    transition: 0.2s ease-in-out;
 }
 
 .animate .interest-item {
