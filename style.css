@@ -756,6 +756,29 @@ footer p {
         top: -2px;
         margin-top: -5px;
     }
+
+    #contact-container {
+        display: grid;
+        grid-template-areas:
+            "cont-title"
+            "cont-text"
+            "cont-img";
+        grid-column-gap: 50px;
+        justify-content: center;
+    }
+
+    #contact-holder p {
+        text-align: center;
+    }
+
+    #contact-links {
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    #contact-links a {
+        margin: 0px 5px;
+    }
 }
 
 @media only screen and (max-device-width: 960px) {
