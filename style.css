@@ -486,9 +486,10 @@ p {
 
 #contact-background {
     position: absolute;
-    height: 100%;
+    height: 50%;
     z-index: -1;
     width: 100vw;
+    bottom: 0;
 }
 
 #contact-container {
