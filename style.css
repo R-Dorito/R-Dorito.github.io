@@ -51,15 +51,11 @@ p {
     max-width: var(--max-window-width);
 }
 
-.nav-link,
 #nav-header {
     position: relative;
     display: flex;
     font-size: 1.25em;
     margin: 0;
-}
-
-#nav-header{
     padding: 0px 10px;
 }
 
@@ -76,6 +72,9 @@ p {
 
 .nav-link{
     display: flex;  
+    position: relative;
+    font-size: 1.25em;
+    margin: 0;
 }
 
 .nav-li {
