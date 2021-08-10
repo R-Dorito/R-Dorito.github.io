@@ -55,6 +55,7 @@ p {
     position: relative;
     display: flex;
     font-size: 1.25em;
+    font-weight: bold;
     margin: 0;
     padding: 0px 10px;
     color: black;
