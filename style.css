@@ -58,6 +58,10 @@ p {
     margin: 0;
 }
 
+#nav-header{
+    padding: 0px 10px;
+}
+
 #nav-ul {
     width: 30vw;
     display: flex;
