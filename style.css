@@ -57,6 +57,9 @@ p {
     font-size: 1.25em;
     margin: 0;
     padding: 0px 10px;
+    color: black;
+    font-family: var(--menu-font), var(--backup-font);
+    letter-spacing: 2px;
 }
 
 #nav-ul {
@@ -75,6 +78,9 @@ p {
     position: relative;
     font-size: 1.25em;
     margin: 0;
+    color: black;
+    font-family: var(--menu-font), var(--backup-font);
+    letter-spacing: 2px;
 }
 
 .nav-li {
@@ -100,13 +106,6 @@ p {
     transform-origin: bottom left;
     z-index: -1;
     transition: transform .3s ease-in-out;
-}
-
-.nav-link,
-#nav-header {
-    color: black;
-    font-family: var(--menu-font), var(--backup-font);
-    letter-spacing: 2px;
 }
 
 .section {
